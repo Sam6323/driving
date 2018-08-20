@@ -10,5 +10,6 @@ elif country == 'US' :
 		print('你可以考駕照')
 	else :
 		print('你還不能考駕照')
-#else :
-#	input('請按Enter,重新輸入國家')
+else :
+	print('你只能輸入Taiwan or US')
+	input('請按Enter結束程式')
